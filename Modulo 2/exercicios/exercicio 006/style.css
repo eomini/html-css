@@ -1,0 +1,42 @@
+body{
+    font: 1em normal Arial, helvetica, sans-serif;
+    background-color: rgb(88, 87, 80);
+}
+
+header{
+    background-color: rgb(241, 230, 230);
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: -3px 4px 11px 0px rgba(3, 3, 3, 0.267);
+    
+
+}
+main{
+    background-color: rgb(231, 231, 219);
+    width: auto;
+    font-style: normal;
+    margin: auto;
+    padding: 5px;
+}
+
+
+
+
+footer{
+    background-color: rgb(3, 3, 3);
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    padding: 2px;
+}
+div#bola{
+background-color: grey;
+border-radius: 100px 100px;
+height: 100px;
+width: 100px;
+margin: 10px;
+}
+

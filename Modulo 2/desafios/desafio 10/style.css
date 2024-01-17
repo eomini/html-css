@@ -1,0 +1,192 @@
+:root {
+    --cor0: #005C1F;
+    --cor1: #43E078;
+    --cor2: #00DB49;
+    --cor3: #00DB49 ;
+    --cor4: #00A838 ;
+    --font1: 'feijao' ;
+    --font2: Arial, helvetica, sans-serif;
+    --font3: 'Bebas, neue',cursive ;
+}
+
+
+body{
+    font: normal 1em  Arial, helvetica, sans-serif;
+    background-color: lightblue;
+    color: black;
+
+    
+}
+
+@font-face {
+    font-family:arroz ;
+    src: url(idroid.otf)
+}
+
+
+
+header{
+    background-image:linear-gradient(3deg, rgba(7, 56, 7, 0.808), #3bb41f9d);
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
+    line-height: 2.6em;   
+    /*Fiz tudin*/
+}
+
+
+
+
+nav{
+    text-align: left;
+    margin: -7px;
+}
+
+nav > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+}
+/*Só copiei o padding*/
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    font: 19px;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.705);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*Pequenas mudanças que fiz (maioria eu fiz) */
+}
+
+h1.titulo{
+    font-family:arroz;
+    color: rgba(17, 122, 17, 0.733);
+    text-align:center;
+    font-size: 2em;
+}
+/*Fiz tudin*/
+strong{
+    color: rgba(16, 117, 16, 0.664);
+}
+/*Fiz tudin*/
+
+#primeiroh2{
+    background-image:linear-gradient(140deg, rgba(43, 209, 43, 0.596), white);
+    font-family: arroz;
+    color: rgba(17, 122, 17, 0.733);
+}
+/*Fiz tudin*/
+
+header > a{
+    text-decoration: none;
+    color: rgba(11, 77, 11, 0.925);
+    margin: auto;
+    transition-duration: 1.2s;
+}
+
+/*Adptei bastante mas eu que fiz*/
+
+header a:hover{
+    background-color: rgba(17, 145, 17, 0.788);
+    transition-duration: 0.8s;
+    
+    
+} 
+    
+
+
+main a{
+    color: white;
+    background-color:  rgba(13, 116, 13, 0.651);
+    text-decoration: none;
+    
+    
+}
+
+a._blank::after{
+    content: '\1F517';
+}
+
+
+
+
+main img{
+    width:100%;
+
+}
+.pititica{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+
+#video{
+    background-color: rgba(19, 131, 19, 0.863);
+    margin: 0px -10px 30px -20px ;
+    padding: 20px;
+    
+    position: relative;
+    padding-bottom: 50%;
+}
+
+#video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 56%;
+}
+/*Esse eu copiei mesmo*/
+
+h5{
+    background-color: rgba(37, 185, 74, 0.644);
+    height: 32px;
+    text-align: left;
+    margin: 5px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+aside#tit{
+    background-color: rgba(53, 196, 136, 0.24);
+    border-radius: 10px;
+    margin: 8px;
+    height: 400px;
+}
+
+ul{
+    list-style-type:'\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+
+#txt{
+    float: inline-end;
+    margin: 8px;
+    text-align: left;
+    text-indent: 20px;
+}
+
+footer{
+    background-color: rgb(14, 70, 14);
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+/*Fiz tudin*/
+
+
+
+
+
+

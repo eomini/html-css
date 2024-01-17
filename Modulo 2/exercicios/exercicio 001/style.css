@@ -1,0 +1,6 @@
+body{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-image: linear-gradient(25deg,#C49A15, #9220C4);
+background-image: radial-gradient(#C49A15, #9220C4);
+}

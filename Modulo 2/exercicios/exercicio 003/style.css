@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*feitonum documento externo*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    }
+
+    h1{
+      font-family: 'Work Sans', sans-serif;
+      font-size: 3em;
+    }
+
+    p{
+      font-family: 'Courgette', cursive;
+      font-size: 1em;
+    }

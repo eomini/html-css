@@ -1,0 +1,156 @@
+:root {
+    --cor0: #005C1F;
+    --cor1: #43E078;
+    --cor2: #00DB49;
+    --cor3: #00DB49 ;
+    --cor4: #00A838 ;
+    --font1: 'feijao' ;
+    --font2: Arial, helvetica, sans-serif;
+    --font3: 'Bebas, neue',cursive ;
+}
+
+
+body{
+    font: normal 1em  Arial, helvetica, sans-serif;
+    background-color: lightblue;
+    color: black;
+
+    
+}
+
+@font-face {
+    font-family:arroz ;
+    src: url(idroid.otf)
+}
+
+*{
+    margin:auto;
+    padding: 5px;
+}
+
+header{
+    background-image:linear-gradient(3deg, rgba(7, 56, 7, 0.808), #3bb41f9d);
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493);
+    line-height: 2.6em;
+    
+    
+}
+
+
+
+nav{
+    text-align: left;
+    margin: -7px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    font: 19px;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+h1.titulo{
+    font-family:arroz;
+    color: rgba(17, 122, 17, 0.733);
+    text-align:center;
+    font-size: 2em;
+}
+strong{
+    color: rgba(16, 117, 16, 0.664);
+}
+
+#primeiroh2{
+    background-image:linear-gradient(140deg, rgba(43, 209, 43, 0.596), white);
+    font-family: arroz;
+    color: rgba(17, 122, 17, 0.733);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(11, 77, 11, 0.925);
+    margin: auto;
+    
+    
+}
+
+a:hover{
+    background-color: rgba(244, 250, 244, 0.801);
+    
+}
+
+
+main img{
+    width:100%;
+
+}
+.pititica{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+
+#video{
+    background-color: rgba(19, 131, 19, 0.863);
+    margin: auto;
+    height: 327px;
+    width: 600px;
+
+}
+
+h5{
+    background-color: rgba(37, 185, 74, 0.644);
+    height: 32px;
+    width: 580px;
+    text-align: left;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+#tit{
+    background-color: rgba(53, 196, 136, 0.24);
+    border-radius: 10px;
+    margin: 8px;
+    height: 400px;
+}
+
+ul{
+    list-style-type:'\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+
+#txt{
+    float: inline-end;
+    margin: 8px;
+    text-align: left;
+    text-indent: 20px;
+}
+
+footer{
+    background-color: rgb(14, 70, 14);
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+
+
+
+
+
