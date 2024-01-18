@@ -9,6 +9,6 @@
 
  EXERCÍCIOS FEITOS
 
- <a href="Modulo 1/exercicio/">Exercícios do Modulo 1</a>
+ <a href="Modulo 1/exercicio/MODULO 1/exercício 008">Exercícios do Modulo 1</a>
 
 
