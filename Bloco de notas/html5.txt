@@ -1,0 +1,1329 @@
+-HTML E CSS
+---------------------------------------
+
+MODULO 1
+
+Uma das coisas mais importantes para quem está começando o desenvolvimento de
+sites é compreender para que serve esse trio de tecnologias, que geralmente são
+estudados em conjunto. Basicamente, de forma resumida, temos um panorama
+
+simples:
+HTML -> Conteúdo
+CSS -> Estilo
+JavaScript ->Interatividade
+------------------
+Tags HTML
+
+Para comentar em html é so escrever <!-- e para fechar -->
+Para comentar em CSS é so escrever /* e mesma coisa para fechar
+
+A maioria das tags possuem uma abertura e um fechamento, e
+você identifica isso pela presença da barra no fechamento da tag. 
+
+dentros da estrutura HTML so pode haver as tags <body> e <head>
+
+para criar so colocar (index.html)
+
+A tag <br> significa literalmente “quebre a linha” (break row) e agora que você sabe o
+significado, não precisa nem de explicação né? 
+
+para colocar favcons é so ir na tag head e colocr link favcoin.
+
+Títulos em HTML são conhecidos como headings (que, traduzindo do Inglês, significa
+título mesmo � ). Os títulos possuem SEIS NÍVEIS de hierarquia, e esses níveis
+servem para organizar nosso conteúdo. Para isso, usamos as tags <h1>, <h2>, <h3>,
+<h4>, <h5> e <h6> para demarcar nossos títulos.
+
+Tem muita gente por aí que acha que <h1> significa “texto com fonte grande” e <h6>
+significa “texto com fonte pequena”. Isso não tem fundamento algum! Por favor, se
+alguém te disse isso algum dia, essa pessoa estava completamente equivocada.
+Um <h1> significa que esse é um assunto principal e é sobre ele que vamos escrever.
+Já o <h2> significa que esse é um sub-assunto do <h1> que está imediatamente acima
+
+
+ara isso, no lugar de usar os colchetes angulares <>, usamos caracteres especiais
+referentes ao código desses símbolos. No código anterior, quando usamos:
+• Um &lt; estamos pedindo pra colocar o símbolo menor que (less than). dai conseguimos escrever <p> sem ativar a tag
+• Um &gt; estamos pedindo para coloca o símbolo maior que (greater than). 
+
+Símbolo Descrição Entitiy
+Espaço em branco  &nbsp;
+® Marca  registrada &reg;
+© Copyright &copy;
+™ Trade  Mark &trade;
+€ Euro &euro;
+£ Libra (pound)  &pound;
+¥ Yen  &yen;
+¢ Cent  &cent;
+∅ Vazio  &empty;
+∑ Soma  &sum;
+Δ Delta  &Delta;
+← Seta esquerda  &larr;
+↑ Seta acima  &uarr;
+→ Seta direita  &rarr;
+↓ Seta baixo  &darr;
+
+
+
+<h1>(titulo qualquer)-> abrir tag
+</h1>-> para fechar tag
+
+ficaria <h1>(titulo mqualquer)</h1>
+
+para paragrafo usa <p> para abrir e </p> pra fechar
+<p>(paragrafo aleatorio)</p>
+
+outra pra colocar imagem e 
+<imagem src="ft.png"alt="exemplo de ft"
+
+Estrutura básica de um documento
+HTML
+Ao criar um novo documento HTML, devemos sempre escrever a estrutura básica de
+um documento desse formato. Vamos analisar cada uma das 11 linhas que compõem
+esse documento base.
+
+1 <!DOCTYPE html>
+2 	<html lang="pt-br">
+3 		<head>
+4 			<meta charset="UTF-8">
+5 			<meta name="viewport" content="width=device-width, 
+ i			nitial-scale=1.0">
+6			 <title>Document</title>
+7 		</head>
+8 		<body>
+9                       <h1>Hello Wordle</h1>
+10 		</body>
+11 </html>
+
+
+• Linha 1: Indica que o documento atual será escrito na versão mais atualizada da
+linguagem (no caso, HTML5)
+
+• Linhas 2 e 11: Delimitam o documento HTML, que é sempre dividido em duas
+partes: a cabeça e o corpo. Na linha 2, também estamos indicando que o conteúdo
+desse site será no idioma Português do Brasil.
+
+• Linhas 3 e 7: Delimitam a cabeça da página, local onde são realizadas algumas
+configurações iniciais como formatos, estilos, ícone de favoritos, etc.
+
+• Linha 4: adiciona ao documento atual o suporte a caracteres acentuados.
+Remover essa linha pode causar erros de renderização de algumas letras na tela.
+
+• Linha 5: Indica que o conteúdo aparecerá, por padrão, ocupando todo o espaço
+disponível da tela e com uma escala de 1:1.
+
+• Linha 6: Configura o título da página, que aparecerá como identificação da aba do
+navegador, ao lado do favicon.
+
+• Linhas 8 e 10: Delimitam o corpo da página, a maior porção do site, que vai
+aparecer na tela. É aqui onde colocaremos todo o nosso conteúdo
+
+Aréa head é de configuraçao e area body de cor.
+
+colocar imagens 
+
+usar tag img e control espaço para escolher
+
+
+Para comentar e só colocar <!
+-------------------------------------
+
+SEMANTICA
+
+usar a tag <strong>, que tem um significado de força ou potência dentro da frase PARA marcar em negrito.
+
+A tag <strong> significa que o termo delimitado possui força dentro da frase. Logo,
+ele aparecerá em negrito.
+
+
+Já a tag <em> significa que queremos dar ênfase (do Inglês emphasis) ao termo.
+Logo, ele aparecerá em itálico.
+
+Para fazer essas marcas em HTML5, usamos a tag <mark>…</mark> para
+delimitar o texto que queremos demarcar, como se estivéssemos usando uma
+caneta marcador. 
+
+mas a tag <small> (que deixa o texto menor> segue firme e forte
+na vida da linguagem. 
+
+
+ a tag <del>, que significa que o texto está ali,
+pode até ser lido, mas deve ser desconsiderado pelo leitor. Exatamente como eu
+acabei de fazer. (texto cortado)
+
+texto inserido é o exato oposto do texto deletado que vimos anteriormente. Nesse
+caso, se colocarmos um texto qualquer dentro de <ins> e </ins> ficando sublinhado
+
+para escrever coisa tipo escrever um x2 ou um H2O a HTML tem as tags <sub> e <sup> 
+(sub em baixo e sup em cima)
+
+Para criar uma citação em HTML, podemos usar a tag <q> (do Inglês quote, que
+significa citar). O texto que estiver entre <q> e </q>
+
+Também podemos criar citações mais longas (em bloco) e que tenham um parágrafo
+só para si. Nesse caso, colocaremos tudo dentro de <blockquote> e </blockquote>
+
+use a tag
+<abbr> para abreviar e deixar claro o sentido
+-------------------------------------------------
+LISTAS COM
+HTML5 
+
+Elas simplificam e sintetizam o conteúdo a ser passado e faz a
+demarcação de cada item para facilitar a visualização. 
+
+Listas Ordenadas
+Para criar uma ordered list, vamos usar a tag <ol> para delimitar a lista e <li> (list
+item) para identificar cada item da lista (se colocar o "ol" nao prescisa fechar o li)
+
+A tag <ol> possui um parâmetro type, onde configuramos o tipo de marcador da lista
+atual. As opções de valores para esse parâmetro são:
+
+‣ 1 - Valor padrão. Cria listas numeradas. Ex: 1, 2, 3, 4, …
+
+‣ A - Cria listas alfabéticas em maiúsculas. Ex: A, B, C, D, …
+
+‣ a - Cria listas alfabéticas em minúsculas. Ex: a, b, c, d, …
+
+‣ I - Cria listas com algarismos romanos em maiúsculas. Ex: I, II, III, IV, …
+
+‣ i - Cria listas com algarismos romanos em minúsculas. Ex: i, ii, iii, iv, … 
+
+PARA DEIXAR A LISTA DO LADO DA OUTRA
+
+
+ul{
+    list-style-type:'\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+A primeira linha de declarações faz com que o marcador seja personalizado com o
+parâmetro list-style-type. O valor \2714 corresponde ao símbolo ✔ que tem o
+código Unicode U+2714 (confira no site da Emojipedia). O valor \0020 corresponde a
+um espaço em branco (também pode ser \00A0).
+A segunda declaração vai organizar a lista em duas colunas. O total de elementos da
+lista com <li> será dividido em duas partes iguais (ou quase) e o resultado será
+colunado.
+
+
+Listas não Ordenadas
+
+Para criar uma unordered list, vamos usar a tag <ul> para delimitar a lista e a tag
+<li> para criar cada um dos seus itens internos. 
+
+unordered lists, também chamadas de listas com marcadores, que são aquelas onde
+a ordem dos itens não influenciará no significado da lista. Ela é apenas uma ótima
+maneira para organizar os itens que não apresentam uma classificação
+necessariamente. 
+
+Lista de Definições 
+
+É como se fosse um dicionário, temos os termos e as suas descrições. É uma lista sem
+demarcadores, mas bem útil em alguns casos. 
+
+Toda lista de definições está dentro de uma tag <dl> </dl>
+
+) Cada
+termo é um <dt> (definition term) e cada descrição é um <dd> (definition description)
+
+============================
+ LINKS
+
+Para criar um hyperlink, devemos criar âncoras através da tag <a>. O principal
+atributo dessa tag é o href, que cria uma referência hipertexto
+ex: <a> href"(link aleatorip)" link aqui</a>
+
+Outro atributo bem útil da tag de âncora é o hreflang, que permite indicar qual é o
+idioma principal do site para onde o link está desviando o fluxo de navegação
+
+ara poder controlar onde o site de destino vai abrir, podemos usar o atributo target,
+que suporta os seguintes valores:
+‣ _blank vai abrir o link em uma nova janela em branco
+
+‣ _self vai abrir o link na janela ou frame atual (padrão)
+
+‣ _top vai desfazer todos os frames e abrir o destino no navegador completo
+
+‣ _parent similar ao uso do _top em uma referência à janela mãe
+
+‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir
+
+
+Outra coisa que aparece bastante em sites são os links para
+efetuar download de algum material em PDF, ou de um arquivo
+ZIP qualquer. A partir da versão HTML5, as âncoras receberam
+atributos especiais para isso. Basta fazer o link diretamente
+para o arquivo que se deseja efetuar o download e adicionar o
+atributo "download" com o valor configurado para o nome do
+arquivo a ser baixado e o atributo type para indicar ao
+navegador que tipo de arquivo está sendo baixado. 
+
+ficando assim:
+
+<a href="TLauncher-2.885-Installer-1.1.3.exe" download="apllication.exe">Baixe o Mine aqui</a>    (para instalar o mine )
+
+
+Aqui vão alguns media types bem usados no nosso dia-a-dia:
+‣ application/zip
+‣ text/html
+‣ text/css
+‣ text/javascript
+‣ video/mp4
+‣ video/H264
+‣ video/JPEG
+‣ audio/aac
+‣ audio/mpeg
+‣ font/ttf
+‣ image/jpeg
+‣ image/png 
+
+==========================
+Imagens dinamicas audio e video
+
+Nosso primeiro passo no caminho de adaptar nosso conteúdo ao tamanho da
+tela vai ser aprender a gerar imagens de tamanho diferentes e a fazer o
+navegador carregar a imagem certa para cada situação. 
+Para isso,
+devemos conhecer as tags <picture> e <source>. 
+
+Note que a tag <source> possui três atributos:
+‣ type vai indicar o media type da imagem que usamos (veja mais informações
+sobre media types no capítulo 10)
+‣ srcset vai configurar o nome da imagem que será carregada quando o tamanho
+indicado for atingido
+‣ media indica o tamanho máximo a ser considerado para carregar a imagem
+indicada no atributo srcset. 
+
+Para inserir um vídeo em nosso site, podemos utilizar a nova
+tag <video> da HTML5, caso o arquivo esteja hospedado no nosso próprio servidor. 
+
+Antes de mais nada, vamos criar a tag <video> e configurar alguns atributos
+importantes:
+‣ width vai indicar a largura que o vídeo vai ter na tela. Nesse exemplo, 600px.
+‣ poster configura uma imagem que vai aparecer como uma capa, enquanto o
+visitante não aperta o play para reproduzir o vídeo
+‣ controls vai configurar se os controles do vídeo vão aparecer na parte inferior da
+mídia. Por padrão, os controles não aparecerão, mas basta colocar a palavra
+controls na tag <video>.
+‣ autoplay diz para o navegador se o vídeo vai começar a tocar automaticamente,
+assim que a página for carregada. 
+
+para colocar video que esta no server do youtube e nao consumira nosso servidor basta O código HTML personalizado vai
+aparecer em uma nova janela de
+contexto, incluindo um botão que
+permite COPIAR o código com a tag
+do <iframe> que vai apa re ce r
+
+
+
+
+
+
+==================
+ CSS3
+
+
+
+
+Como já vimos anteriormente, as CSS são as Cascading Style Sheets (Folhas de
+Estilo em Cascata). Elas são usadas para configurar um resultado visual dos
+elementos HTML.
+As configurações das CSS são realizadas através dos seletores. Vamos ver a
+anatomia de um seletor. 
+
+h1 {
+     font-famyli:arial;
+      font-size:20p;
+	color:blue;
+   }
+
+O seletor apresentado anteriormente vai configurar o visual dos elementos de
+parágrafo do site corrente. O uso das chaves delimita todas as declarações relativas
+ao seletor atual. No seletor que eu te mostrei, serão feitas três configurações:
+• A fonte escolhida foi Arial.
+• O tamanho da letra será 12pt (pontos).
+• A cor da letra será azul.
+Note que, ao final de cada declaração, temos que colocar ponto-e-vírgula para
+indicar que ela se encerrou. 
+
+
+Vamos começar nos focando na tag <body> e aplicando um estilo diferente ao corpo
+da página. Adicione o parâmetro style e digite as duas declarações de font-family e
+color, conforme apresentado a seguir:
+
+style="font-family: Arial, Helvetica, sans-serif; color: rgb(15, 97,);"
+
+Vamos fazer mais uma alteração, dessa vez na linha do primeiro título <h1> do nosso
+código:
+
+style="color: brown;"
+-------------------------------
+
+
+
+
+---------------------------------- 
+Para aplicar estilos de forma mais dinâmica e prática, podemos adicionar uma tag
+<style> dentro da área <head> do nosso documento HTML local. Volte lá no seu
+VSCode, e adicione o código dentro de <head>.
+
+Isso acontece porque as configurações pontuais (HTML style) vão prevalecer sobre as
+configurações gerais (CSS style).
+
+---------------------------------------------------------
+
+Manter as folhas de estilo fora do código HTML, além de uma maior organização faz
+com que tudo seja reaproveitado de maneira mais eficiente nas outras páginas do
+nosso site. Para isso, utilizamos a tag <link> especialmente configurada para
+trabalhar com arquivos externos de estilo. Essa tag deve ser colocada dentro da área
+<head> do seu documento HTML.
+-------------------------------------------------------------------
+
+Manter as folhas de estilo fora do código HTML, além de uma maior organização faz
+com que tudo seja reaproveitado de maneira mais eficiente nas outras páginas do
+nosso site. Para isso, utilizamos a tag <link> especialmente configurada para
+trabalhar com arquivos externos de estilo. Essa tag deve ser colocada dentro da área
+<head> do seu documento HTML.
+
+Agora passe o mouse sobre o nome do arquivo style.css e veja que existe um
+atalho “Siga o link”, bastando pressionar Ctrl+clique (ou Cmd+clique, se estiver
+usando o sistema MacOS)
+----------------------------------------------
+
+CORPPO DO CSS
+
+Na linha 1, colocamos uma regra em CSS, que vai indicar a compatibilidade de
+codificação com o padrão UTF-8, assim como fizemos com o arquivo HTML5.
+
+Nas demais linhas, fizemos as configurações dos seletores, da mesma maneira que
+criamos com as outras
+
+
+==========================
+TRUQUES VSCODE
+
+para fazer o corpo automaticamente, coloque "!" e aperte enter
+h1 e enter ja abre automaticamente a tag <h1> </h1>
+mesma coisa para o (p)
+
+para envelopar mais de 1 item por exemplo varios itens de lista é 
+enveopar + li*
+
+
+
+========================================================================
+
+MODULO 2
+
+---------------------------
+
+As cores
+
+
+Elas transmitem sentimentos como
+
+vermelho amor, emoção, energia, raiva,
+perigo
+comida, moda, entretenimento,
+serviços de emergência e saúde
+luxo, natureza, serviços
+em geral
+- - - - 
+amarelo felicidade, alegria, otimismo,
+covardia
+dar luz, dar calma e felicidade,
+chamar atenção
+pode indicar que algo é
+barato ou spam
+- - - - - -
+laranja divertimento, ambição, calor,
+cautela
+comércio eletrônico,
+entretenimento, call-to-action
+pode se tornar cansativo
+se muito explorado
+- - - - - -
+verde saúde, natureza, dinheiro,
+sorte, inveja
+relaxamento, turismo,
+financeiros, meio ambiente
+luxo, tecnologia,
+meninas adolescentes
+- - - - - -
+azul competência, sabedoria,
+calma, frio
+tecnologia, medicina, ciências,
+governo
+comida (reduz apetite)
+- - - - - - -
+roxo criatividade, poder,
+sabedoria, mistério
+produtos de beleza, astrologia,
+ioga, espiritualidade, adolescente
+não prende muito a
+atenção, indiferente
+- - - - - - - -
+marrom terra, robustez, estabilidade,
+amizade
+alimentação, imobiliária, animais,
+finanças
+cor considerada
+conservadora
+- - - -- - - - -
+preto elegância, autoridade,
+mistério, morte
+luxo, moda, marketing,
+cosméticos
+desconforto e medo
+- - -- - - - - -
+branco pureza, limpeza, felicidade,
+segurança
+medicina, saúde, tecnologia, luxo
+(com preto, ouro, cinza)
+não chama atenção,
+deve ser combinado
+
+- -- - -  - - -
+cinza formalidade, sofisticação,
+frieza, indiferença
+bens de luxo, efeito calmante dá a sensação de frieza
+- - - -- -  - -
+rosa amor, romance, sinceridade,
+cuidados
+produtos femininos e cosméticos pode tornar muito
+sentimental e doce 
+
+===== = =   ====
+
+As cores primarias são azul amarelo e vermelho
+
+As secundarias sao verde laranja e violeta
+
+= = = = = = === = == = = =
+
+Em trabalhos de sites é presciso olhar a cor primaria da logo e trabalhar com ela no site.
+
+
+ocê já deve ter ouvido falar que as cores em uma
+tela são compostas da junção de três cores primárias:
+vermelho (red), verde (green) e azul (blue).
+Analisando a imagem ao lado, vemos que a junção de
+algumas cores primárias nos leva a a outras cores
+como o magenta, amarelo e ciano. Se usarmos
+todas as cores primárias no máximo, chegamos ao
+branco. Com todas as três no mínimo, obtemos o
+preto.
+Cada cor primária pode ter um valor entre 0 e 255,
+totalizando 256 possibilidades para cada elemento.
+Vejamos alguns exemplos de cores e seus respectivos códigos.
+Vamos tomar como exemplo a cor Teal na tabela da página a seguir. Seu código
+rgb(0, 171, 169) indica que existe quantidade 0 de vermelho nessa cor, 171 de
+verde e 169 de azul. No código de cores hexadecimal (iniciado sempre com #) indica
+que 00 é a quantidade de vermelho, AB é a quantidade de verde e A9 é a quantidade
+de azul.
+
+
+Para colocarmos uma cor se misturando usamos 
+
+ background-image:linear-gradient(98deg, yellow, green); ficando como representado no ex 001  (usamos image pois o navegador identifica
+como imagem os gradient)
+
+O primeiro parâmetro da função, indica o ângulo de inclinação de 90
+graus (90deg) e as seguintes indicam as cores do degradê a ser criado. Você pode
+indicar quantas cores quiser e o navegador vai saber se virar pra gerar seu degradê
+personalizado.
+
+egativos (45deg, -90deg, 25deg,…) e note as diferenças.
+Também é possível gerar os chamados gradientes radiais, que também são meio autoexplicativos. Veja o exemplo:
+
+background-image: radial-gradient(circle, green, blue, red);
+ - -- - - -  - - - - -  -
+
+Com certeza essa situação vai aparecer na sua vida, mais cedo ou mais
+tarde. Você vai entrar em um site e vai descobrir um tom perfeito daquele
+amarelo que estava procurando. Como descobrir exatamente o código dessa
+cor?
+Uma das maneiras bem práticas de executar essa tarefa é usando uma extensão
+gratuita do Google Chrome chamada Color
+=== = = = =================
+
+FONTES
+
+Fonte, letra e família
+
+Glifos, letras, caracteres
+São os signos alfabéticos projetados para reprodução mecânica. O exemplo a seguir
+representa os glifos de a até h.
+- - - - ---- - - - - -  - -  - - -- 
+
+Família tipográfica
+É o conjunto de glifos que possuem as mesmas características anatômicas,
+independente das suas variações.
+Vou exemplificar esse conceito com o exemplo a seguir: a família tipográfica Open
+Sans possui várias configurações de peso (de 300 a 800). Mesmo parecendo
+representações bem diferentes, todos eles fazem parte da mesma família tipográfica.
+- - - - - - - - - - - - - - - - -- -  - -- - - - - - - - - - -
+
+Fontes
+As fontes são conjuntos de glifos que formam uma família tipográfica. O termo fonte
+também é aplicável ao arquivo digital que armazena todos os formatos de glifos que
+compõem uma determinada família tipográfica.
+- - - - - -- - - - - - -  - - - - - - - - - - 
+
+Fontes Serifadas
+
+Esta é a categoria mais clássica de fontes, surgida lá na época das prensas.
+ As serifas têm a capacidade de guiar nossos olhos graças aos
+pequenos prolongamentos que elas criam e fazem as letras “se juntarem” em
+palavras. 
+- - - - - - -  - --  --  -- - - -  --  -- -  - -  
+Fontes Monoespaçadas
+Essa é uma das categorias de fontes que vieram derivadas das duas categorias que
+vimos anteriormente, por isso existem fontes monoespaçadas com e sem serifas. A
+principal diferença desse tipo de fonte é o espaço horizontal (largura) ocupado por
+cada letra. Na maioria das fontes, a letra i ocupa muito menos espaço lateral do que a
+letra M, não é? Não para as fontes monoespaçadas. Elas possuem a mesma largura
+para todas as letras.
+- - -- - - -  - - -- -  -- - -  -- 
+Fontes Script
+Também chamadas de fontes handwriting, são aquelas que tentam imitar a escrita
+humana. Seu uso deve ser bem controlado e jamais será aplicado a textos muito
+longos, pois causam cansaço visual e tornam-se difíceis de ler, como já provamos
+anteriormente no início do capítulo, dentro do item “As fontes falam”.
+- - - - - - -- - - - - -  - 
+Fontes Display
+Toda fonte que foge completamente das definições feitas pelas classificações acima
+são consideradas fontes display. São fontes com bastante efeitos visuais, enfeitadas e
+até mesmo curiosas. Também são chamadas de fontes comemorativas e algumas
+delas sequer representam letras, podendo ser desenhos de animais, objetos, pessoas,
+personagens de quadrinhos, etc.
+- - --  - - -- - - - -  -- - -
+
+
+Para configurar a família tipográfica que será aplicada a um determinado texto,
+usamos a propriedade font-family das CSS. Se indicarmos mais de uma família na
+sequência, estamos indicando ao navegador que dê preferência para a primeira. Caso
+ela não seja encontrada, tente a próxima. E essa estratégia se seguirá até a última,
+que geralmente é a família genérica serif, sans-serif ou monospaced. a família tipográfica que será aplicada a um determinado texto,
+usamos a propriedade font-family das CSS. Se indicarmos mais de uma família na
+sequência, estamos indicando ao navegador que dê preferência para a primeira. Caso
+ela não seja encontrada, tente a próxima. E essa estratégia se seguirá até a última,
+que geralmente é a família genérica serif, sans-serif ou monospaced ficando assim:
+
+
+
+ <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        h1{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            color: blue;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            color: chartreuse;
+        }
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            color: deeppink;
+        }
+    </style>
+
+
+No código acima, seus títulos principais <h1> usarão preferencialmente a fonte
+Franklin Gothic Medium, uma fonte sem serifa e que tem seu espaço horizontal
+bem limitado. Porém, essa fonte geralmente não existe em smartphones, que
+possuem a fonte Arial Narrow que é bem parecida mas é menos densa. Caso nenhuma
+delas seja encontrada no aparelho do visitante, o navegador vai selecionar a fonte
+Arial normal. Em último caso, se tudo der errado, o sistema selecionará uma fonte
+genérica sem serifa.
+
+- - -- - - - - - - - -
+
+Além da família, podemos configurar tamanhos e estilos extras de qualquer
+componente textual do nosso documento HTML5.
+Para especificar tamanho de fontes, existem várias medidas como cm (centímetros),
+in (polegadas), pt (pontos), pc (paicas), px (pixels), etc. Para tamanhos de fonte a
+serem exibidos na tela, o W3C recomenda o uso do px ou do em.
+
+A medida em é uma das que gera mais dúvida nos alunos. Ela é uma medida
+referencial em relação ao tamanho original da fonte. O tamanho padrão de uma fonte
+é geralmente 16px, isso equivale a 1em. A partir daí, podemos configurar o tamanho
+de um título, por exemplo, como sendo 2 vezes maior que a fonte padrão usando o
+valor 2em para a propriedade.
+
+Reforçando - O tamanho padrao da fonte é 16px ou 1em
+- - - - - - -
+
+Exporta fontes
+
+para exportar fontes é so pesquisar fonts.google, apos encontrar a font voçe clica em select regular 
+e depois clica em @import  apos isso copie e voçe pode colar no documento html direto SEM ESTAR EM NENHUM SELETOR e
+no propio documento dentro da tag style
+
+Para Colocar a font que foi instalada basta primeiro descompactar o arwuivo, depois copia e cola no arquivo,
+para a fonte fucionar dentro do style cria a regra @font face e depois cria um (src) e a pasta e o format(), e
+tambem um font-family com um nome qualquer
+- - - - - - - - - -  --
+
+Extensões
+
+font ninja pra pegar a fonte
+site do what font pra pegar font nas imagens
+
+- - -- - - - - -  - - -
+PESO da fonte
+
+
+É mais usado em estilo work sans pois em arial, times new roman e em outras a poucas variações
+O peso da fonte é dado em fonte weight
+podemos usar ligther, normal, bold , bolder
+podemos usar a unidade númerica que começa de 100 a 900
+
+
+- - - - --  -- - - - -
+
+
+Existem outras formatações muito usadas em CSS, que são as propriedades fontstyle para aplicar o itálico e font-weight para aplicar o negrito, sem contudo existir
+o fator semântico discutido no capítulo 08
+- - - - - - - - 
+
+Shortshands
+
+As formatações de fontes são tão importantes e tão usadas em CSS, que existem
+“atalhos” para usá-las. São as chamadas shorthands.
+Existe uma shorthand para fontes que é a propriedade font. No lugar de fazer várias
+configurações em múltiplas linhas, podemos simplificar tudo de maneira muito
+simples Por exemplo, no lugar de configurar o estilo dos parágrafos do nosso site desse jeito:
+
+font-family: 'Courier New', Courier, monospace;
+font-size: 8px;
+font-style: italic;
+font-weight: bolder;
+
+Podemos usar a shorthand font que vai simplificar tudo:
+
+font: italic  bold 1em Arial, Helvetica, sans-serif ;
+
+A ordem dos atributos de uma shorthand em CSS é importante. No caso da
+propriedade font, devemos informar, na ordem:
+• font-style
+• font-weight
+• font-size/line-height
+• font-family
+
+- - -- - - -- -- -  -- 
+
+Alinhamento
+
+Existem quatro tipos de alinhamento de textos:
+
+text-align: left; esquerda
+
+
+text-align: right;  direita
+
+
+text-align: justify; adaptar a tela
+
+text-align: center; centro
+
+text-indent: px;  para dar um paragrafo
+=============================
+Pseudo-classes e pseudo-elementos
+
+Informaçoes uteis
+
+quando se coloca div > p esta se dizendo que o p faz parte da div
+e assim podemos configurar esse p.
+
+
+
+
+----- -  - ------- ----
+
+Pseudo-classes e pseudo-elementos
+
+a pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor
+após um sinal de dois pontos e especificam um estado especial de um elemento.
+Existem várias pseudo-classes para estilos, podemos
+citar :hover, :visited, :active, :checked, :empty e :focus.
+
+hover é quado aparece uum elemento
+
+para fazer um elemento escondido aparecer quando passar o mouse tem que ser assim
+
+div > p {
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    background-color: yellow;
+
+}
+
+
+
+
+Já um pseudo-elemento CSS é uma palavra-chave adicionada às declarações de um
+seletor após dois sinais de dois pontos e permitem que você formate um pedaço
+específico do elemento referenciado. Os principais pseudo-elementos usados nas CSS
+são ::before, ::after, ::first-letter, ::first-line.
+
+
+----- - - - - -- - 
+
+SEletores personalizados
+
+Para começar a dar mais poder às CSS, criando estilos
+personalizados, precisamos aprender a utilizar os seletores de id
+(#) e de class (.)
+
+podemos identificar um determinado elemento único
+com um id, ou agrupar elementos múltiplos que tenham
+características semelhantes com um class. Vamos olhar um
+exemplo simples de documento HTML, com propriedades
+identificadoras:
+usando o class e o id exemplo:
+
+<h1 id="Titulo Principal"> Os seletores personalizados</h1>
+
+ <h2 class="Topico">HTML é semantica</h2>
+
+ vimos que o <h1> principal se diferencia dos
+demais pois ele possui um id.
+e perceba que os dois títulos <h2>
+possuem o mesmo class.
+
+Um id vai identificar um elemento único dentro da página atual.
+Essa identificação vai nos permitir criar um estilo especial para um
+elemento isolado. Já um class vai identificar uma classe à qual
+um ou mais elementos pertençam, compartilhando características
+em comum a todos os que façam parte desse grupo.
+
+Podemos usar o id com # na CSS
+E a class com . 
+--------------------------------
+
+Pseudo-classes e pseudo-elementos
+
+Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor
+após um sinal de dois pontos e especificam um estado especial de um elemento.
+Existem várias pseudo-classes para estilos, podemos
+citar :hover, :visited, :active, :checked, :empty e :focus
+
+Já um pseudo-elemento CSS é uma palavra-chave adicionada às declarações de um
+seletor após dois sinais de dois pontos e permitem que você formate um pedaço
+específico do elemento referenciado. Os principais pseudo-elementos usados nas CSS
+são ::before, ::after, ::first-letter, ::first-line.
+
+
+
+Vamos criar mais um exemplo para o uso de pseudo-classes. Nosso HTML vai ter o
+seguinte corpo:
+<div>
+        Passe o mouse aqui
+        <p>SURPRESAAA!</p>
+    </div>
+    <p>Veja o trem escondido aparecendo</p>
+
+criamos um bloco especial com a tag <div>. Uma das grandes
+vantagens em usar divs é que elas podem ter outras tags dentro dela, assim como o
+parágrafo interno
+
+para configurarmos o css o codigo fica assim:
+
+div > p {
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    background-color: yellow;
+
+}
+
+assim toda vez que colocarmos o mouse sobre o " Passe o mouse aqui" aparecera "Surpressa"
+
+O primeiro seletor vai esconder o parágrafo que está dentro da div
+(representado em CSS como div > p) através da propriedade display com o valor
+none.
+
+O segundo seletor vai fazer o parágrafo escondido reaparecer, com o
+fundo pintado de amarelo apenas quando passarmos o mouse sobre ele.
+--- - - - - 
+
+
+LINKS PERSONALIZADOS
+
+Começando pelo corpo do documento, contendo só o HTML, vamos criar um texto com
+um título e três parágrafos, com três links. Note que o último link recebeu a atribuição
+de uma classe específica.
+
+Vamos alterar essa apresentação padrão com nossas configurações de estilo. Crie a
+área <style> dentro de <head> e coloque os seguintes seletores ficando assim:
+
+    font: normal 1em arial, helvetica, sans-serif
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.especial:hover{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.especial::before{
+    content:">>" ; 
+    font-weight: lighter;
+}
+
+.especial::after{
+    content: "<<" ;
+    font-weight: lighter;
+}
+
+Nas declarações acima, criamos três configurações para os links: a primeira 
+ para links inéditos (não visitados),
+ colocando o texto em negrito, removendo o
+sublinhado e colocando-os em cor vermelha.
+
+No segundo seletor para links , configuramos as âncoras já visitadas (com
+a pseudo-classe :visited). Nele, apenas mudamos a cor para vermelho escuro.
+
+Já na terceira declaração fizemos configurações para todos os links,
+quando passarmos o mouse por cima (pseudo-classe :hover) e o sublinhado volta a
+aparecer.
+
+
+Por fim, vamos adicionar algumas configurações relacionadas à classe especial,
+criada no documento HTML, para o terceiro link. 
+
+
+.especial:hover{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.especial::before{
+    content:">>" ; 
+    font-weight: lighter;
+}
+
+.especial::after{
+    content: "<<" ;
+    font-weight: lighter;
+}
+    
+
+Na primeira declaração do código acima (linha 26), dizemos que o link da classe
+especial vai ter letra branca, fundo preto e perderá o sublinhado apenas quando
+movermos o mouse sobre ele.
+
+Nas próximas declarações (linhas 32 e 37), vamos adicionar um símbolo » antes e
+outro símbolo « depois usando os pseudo-elementos ::before e ::after,
+respectivamente. O resultado dessas declarações está apresentado a seguir:
+
+================== ===================== ====================
+
+MODELO DE CAIXAS
+
+Tudo começa a partir do conteúdo (content), que representamos acima com o bla
+bla bla… Por padrão, toda caixa é composta apenas pelo conteúdo e não possui
+padding, nem border, nem outline e nem margin. Uma exceção curiosa é o
+elemento <body> que já vem com uma margin de 8px.
+
+Todo conteúdo possui uma largura (width) e uma altura (height) e a esse conjunto
+de propriedades, damos o nome de box-size (tamanho da caixa). O tamanho da
+caixa não inclui as medidas de padding, border, outline e margin.
+
+Depois do conteúdo e de seu tamanho, vamos nos focar na borda que fica em volta
+dele. Ela pode ter uma espessura, uma cor e um formato.
+
+Entre a borda e o conteúdo - da borda para dentro - temos o preenchimento
+(padding) e da borda para fora, temos a margem (margin).
+
+Entre a margem e a borda, podemos determinar o contorno (outline) que é muito
+pouco utilizado, mas existe. Ele é um traçado visual que podemos criar fora da borda
+e o cálculo da sua espessura faz parte da margem estabelecida.
+
+Então temos : conteúdo (content),  largura (width),  altura (height),  reenchimento
+(padding),  margem (margin), contorno (outline)
+
+Vamos criar um exemplo simples para exemplificar todos esses componentes,
+configurando as propriedades do modelo de caixa de um título <h1>. Acompanhe o
+trecho de código a partir das definições de estilo.
+
+para criar uma sobra usamos 
+
+box shadow 
+
+h1{
+    width: 300px;;
+    height: 50px;
+    background-color: lightcyan;
+    border-width: 10px;
+    border-style: groove;
+    border-color: rgb(219, 184, 41);
+    padding: 20px;
+    outline-width: 30px;
+    outline-style: groove;
+    outline-color: blue;
+    margin: 50px;
+
+}
+
+
+(As linhas estao erradas por que é documento externo)
+
+Todas as configurações serão aplicadas ao elemento <h1>, que é uma caixa e foi
+criado  As linhas 9 e 10 configuram o size da caixa
+(largura e altura, respectivamente) e fará com que ela tenha 300x50 pixels.
+
+As linhas de 12 a 14, configuram uma borda sólida, vermelha e com 10 pixels de
+espessura.
+
+A linha 15 vai criar um espaço interno de preenchimento (da borda para dentro) de
+20 pixels no elemento e a linha 19 vai criar um espaço externo (da borda para fora)
+de 50 pixels
+
+As linhas de 16 a 18 vão usar parte da margem para criar um contorno azul, sólido
+e com 30 pixels de espessura.
+
+Dá pra simplificar?
+As configurações de borda e contorno também possuem shorthands para simplificar o
+código anterior. A ordem para as duas configurações é sempre a mesma para as duas
+shorthands: largura (-width), estilo (-style) e cor (-color)
+
+
+Preenchimento e margem
+personalizados
+Todo elemento de caixa possui quatro valores para padding e quatro para margin,
+sempre nessa mesma ordem: superior (-top), direita (-right), inferior (-bottom),
+esquerda (-left). Quando colocamos um único valor de dimensão para o
+preenchimento ou margem, esse mesmo valor é aplicado simetricamente a todas as
+direções.
+
+- --  -- - 
+
+
+Margens no automático
+Um recurso que também vai ser muito usado em nossos exercícios
+é a centralização de blocos. Para que isso seja feito, devemos
+pedir que o navegador calcule automaticamente as margens da
+esquerda e da direita para que o bloco seja colocado no meio do
+navegador, independente do tamanho da janela.
+Para centralizar uma caixa, use a seguinte declaração 
+
+margin: auto
+= ================= ============ ========
+
+Grouping Tags e Semantic Tags
+A linguagem HTML padrão tinha apenas duas tags de agrupamento genérico: a <div>
+e a <span>. A diferença básica entre elas é que a primeira é um elemento agrupador
+do tipo block-level e o segundo é inline-level. No mais, eles agem exatamente da
+mesma maneira, servindo para juntar vários outros elementos HTML.
+
+
+Com o surgimento da HTML5, surgiram as tags semânticas de agrupamento. Isso não
+significa que as <div> e <span> (agora chamadas de não-semânticas) deixaram de
+existir ou ficaram obsoletas, mas seu uso agora faz menos sentido, pois temos tags
+para dividir as partes do nosso documento HTML.
+
+Vamos compreender a partir de agora os principais agregadores semânticos da
+HTML5.
+
+Header
+Cria áreas relativas a cabeçalhos. Pode ser o cabeçalho principal de um site ou até
+mesmo o cabeçalho de uma seção ou artigo. Normalmente inclui títulos <h1> - <h6>
+e subtítulos. Podem também conter menus de navegação.
+
+Nav
+Define uma área que possui os links de navegação pela
+estrutura de páginas que vão compor o website. Um
+<nav> pode estar dentro de um <header>.
+
+Main
+É um agrupador usado para delimitar o conteúdo
+principal do nosso site. Normalmente concentra as
+seções, artigos e conteúdos periféricos.
+
+Section
+Cria seções para sua página. Ela pode conter o conteúdo diretamente no seu corpo ou
+dividir os conteúdos em artigos com conteúdos específicos. Segundo a documentação
+oficial da W3C, “uma seção é um agrupamento temático de conteúdos, tipicamente
+com um cabeçalho”.
+
+Article
+Um artigo é um elemento que vai conter um conteúdo que pode ser lido de forma
+independente e dizem respeito a um mesmo assunto. Podemos usar um <article>
+para delimitar um post de blog ou fórum, uma notícia, etc.
+
+Aside
+Delimita um conteúdo periférico e complementar ao conteúdo principal de um artigo
+ou seção. Normalmente um conteúdo <aside> está posicionado ao lado de um
+determinado texto ou até mesmo no meio dele, exatamente como fizemos no bloco de
+texto apresentado anteriormente, falando sobre “MÚLTIPLOS NÍVEIS”
+
+
+Footer
+Cria um rodapé para o site inteiro, seção ou artigo. É um conteúdo que não faz parte
+diretamente do conteúdo nem é um conteúdo periférico (o que caracterizaria um
+<aside>), mas possui informações sobre autoria do conteúdo, links adicionais, mapa
+do site, documentos relacionados.
+A seguir, vou criar uma proposta de estrutura para um projeto de site. Não tome ela
+como a única possibilidade de criar o posicionamento de elementos de agrupamento
+semântico.
+
+= = = = = = = = = = == = 
+
+IMPORTANTE: variáveis em CSS
+
+Com essa dica, você vai levar suas folhas de estilo a um outro nível! Vamos aprender
+a utilizar variáveis personalizadas com CSS para cadastrar os esquemas de cores e
+fontes do nosso site e isso vai facilitar muito na hora de efetuar eventuais mudanças
+estéticas no nosso site.
+
+Para criarmos variáveis para nossas   
+configurações, devemos definir uma área
+de definições dentro do seu estilo para
+uma pseudo-classe chamada :root, que
+definem as configurações para a raiz de
+uma árvore, que vai servir para o
+documento inteiro.
+
+Note que, pelas declarações criadas ao
+lado, definimos nove variáveis com as
+configurações de cores e fontes que
+definimos no início desse capítulo. 
+
+:root {
+    --cor0: #005C1F;
+    --cor1: #43E078;
+    --cor2: #00DB49;
+    --cor3: #00DB49 ;
+    --cor4: #00A838 ;
+    --font1: 'feijao' ;
+    --font2: Arial, helvetica, sans-serif;
+    --font3: 'Bebas, neue',cursive ;
+}
+
+A partir de agora, definir cores e fontes em nossos elementos HTML ficará
+extremamente mais fácil e personalizável, utilizando a função var()
+
+body{
+    font-family: var(--font2);
+    color: var(--cor1);
+    background-color: var(--cor2);
+}
+
+========= =============== =============== =========== =========== ========
+
+Uso do seletor * em CSS
+
+
+Existe também um seletor especial das CSS que é o asterisco (*), ele tem uma função
+muito especial, pois basicamente ele aplica uma configuração padrão para TODOS os
+elementos do código HTML ao qual o estilo está sendo aplicado. 
+
+
+No nosso caso, para o nosso mini-projeto, nós vamos utilizar esse seletor global para
+eliminar as eventuais margens que os navegadores (user agents) adicionam a alguns
+elementos. Isso vai facilitar bastante, pois vai permitir personalizar as medidas que
+vão aparecer na tela para cada elemento individualmente.
+
+
+============= ================= ================== ===========
+
+Espaçamento entrelinhas em Textos
+Outra configuração muito importante que podemos fazer para textos muito longos é o
+de espaçamento entre as linhas do nosso texto. Usando a propriedade line-height,
+podemos dizer qual é o tamanho do espaço entre uma linha e a outra do texto. O
+valor padrão na maioria dos navegadores é algo próximo ao 1.2em, mas veja a seguir
+a aplicação de outros valores.
+
+================= =============== ============= ==========
+
+Sombras em Textos
+No capítulo anterior, falamos sobre as sombras em caixas, utilizando a propriedade
+box-shadow. Pois saiba que também existe uma propriedade específica para criar
+sombras em textos: o text-shadow.
+A propriedade text-shadow também pode ter quatro parâmetros principais:
+1. Deslocamento horizontal (h-offset): quanto a sombra vai andar para o lado
+direito (valores negativos causam deslocamento para a esquerda)
+2. Deslocamento vertical (v-offset): quanto a sombra vai andar para baixo (valores
+negativos causam deslocamento para cima)
+3. Embaçamento (blur): quanto a sombra vai se espalhar pelo fundo
+4. Cor (color): cor da sombra. É possível usar transparência.
+
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.493)
+
+============ ============== ================= ==========
+
+Personalizando ainda mais as listas
+
+No capítulo 9 nós aprendemos a criar listas de vários tipos. Agora, vou te mostrar
+como criar mais personalizações e a criar um ótimo resultado visual.
+No nosso projeto, quero adicionar uma lista com todas as 14 versões principais do
+sistema Android. Se fizermos usando apenas os elementos comuns sem configurá-los,
+teremos uma listagem que ocupa um grande espaço vertical. A solução aqui é dividir a
+lista em duas colunas e modificar o marcador para personalizar ainda mais a exibição
+do conteúdo.
+
+CODIGO PARA DEIXAR A LISTA DO LADO DA OUTRA
+
+ul{
+    list-style-type:'\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+A primeira linha de declarações faz com que o marcador seja personalizado com o
+parâmetro list-style-type. O valor \2714 corresponde ao símbolo ✔ que tem o
+código Unicode U+2714 (confira no site da Emojipedia). O valor \0020 corresponde a
+um espaço em branco (também pode ser \00A0).
+
+PARA DIVIDIR AS LISTAS É SO CONFIG O (COLUMNS)
+
+A segunda declaração vai organizar a lista em duas colunas. O total de elementos da
+lista com <li> será dividido em duas partes iguais (ou quase) e o resultado será
+colunado.
+
+Por fim, a última declaração vai fazer com que os marcadores sejam exibidos na parte
+interna da caixa que contém a lista. Analise as imagens abaixo e perceba que, por
+padrão, a caixa de uma lista não inclui os marcadores. Alteramos essa característica
+usando a declaração list-style-position com o valor inside, já que a lista vai
+estar dentro de um <aside> no nosso documento HTML
+==== ============ ============== ===========
+
+O problema é que, quando incorporamos um vídeo do
+YouTube ou Vimeo, isso é feito através de uma tag
+<iframe> que já vem com as configurações de um
+tamanho fixo e precisamos alterar isso para que nossa
+interface possa se tornar mais responsiva e adaptar o
+tamanho do vídeo dinamicamente, principalmente para
+telas pequenas.
+Para isso, vamos colocar o <iframe> de incorporação dentro de uma
+<div> para que o vídeo esteja limitado dentro de um contêiner. 
+
+
+Na div, nós colocamos o valor como relative para que seja considerado o
+posicionamento atual do elemento de divisão e que ele se mantenha adaptável para o
+caso de alteração no tamanho do navegador.
+
+Já dentro do iframe, nós usamos o posicionamento absolute para que a div - que é
+o seu contêiner - torne-se o ponto de partida para o posicionamento do frame.
+ A
+partir daí, podemos utilizar propriedades para configurar o deslocamento à esquerda
+(left) e ao topo (top) e seu tamanho em largura (width) e altura (height), todos
+em porcentagem de tela.
+============= ===================== =============== ========
+DEVIA TER FEITO NO SITE
+
+<ul>
+ ✔ 1.5 - Cupcake <br>
+✔ 1.6 - Donut <br>
+  ✔ 2.2 - Froyo <br>
+✔ 2.3 - Gingerbread <br>
+  ✔ 3.0 - Honeycomb <br>
+ ✔  4.0 - Ice Cream Sandwich <br>
+<li>✔   4.1 - Jelly Bean <br>
+ ✔   4.4 - KitKat <br>
+                                
+✔    5.0 - Lolipop <br>
+                               
+ ✔    6.0 - Marshmallow <br>
+                                
+✔    7.0 - Nougat <br>
+                                
+✔    8.0 - Oreo <br>
+                               
+ ✔    9.0 - Pie <br>
+                           
+ </li>
+                  
+  </ul>
+
+Devia ter colocado <li> em todo comnteudo e tambem a <abbr> para traduzir
+os <li> devia ter ficado assim
+
+
+<ul>
+                            <li>
+                                <abbr title="donauts">     1.5 - Cupcake <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="">     1.6 - Donut <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="">     2.2 - Froyo <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="pao de gergelim">     2.3 - Gingerbread <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="doce de mel">     3.0 - Honeycomb <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="hambirguer">     4.0 - Ice Cream Sandwich <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="bala">          4.1 - Jelly Bean <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="chocolate">           4.4 - KitKat <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="pirulito">            5.0 - Lolipop <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="Marshmallow">            6.0 - Marshmallow <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="">            7.0 - Nougat <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="biscoito">            8.0 - Oreo <br></abbr>
+                            </li>
+                            <li>
+                                <abbr title="torta">            9.0 - Pie <br></abbr>
+                            </li>
+                            </li>
+                    </ul>
+- - - - 
+Coloquei muitos <article> sendo que é só 1
+- - - -  -
+
+Nao coloquei o site adptavel
+
+------- ------
+
+PEGAR COSTUME DE INDICAR O QUE TA DENTRO DAS TAG
+
+========================= ======================= ================
+
+
+Aprendendo
+Git e GitHub
+
+
+
+
+ 

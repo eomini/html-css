@@ -1,0 +1,55 @@
+INFO PHANTON
+-----------------------
+
+
+
+
+FUNÇÕES
+
+Print para escrever mensagens, abrindo e fechando com () e usando ' ou "
+mesma coisa serve para numeros
+Para juntar numeros utilizamos 0 '7'+'4' dessa forma ficaria 74
+Para Somar utiliza print normal mas antes de colocarmos o imput da variavel colocamos "int" e criamos umas variavel de soma ficando:
+
+n1=int (input ('Digite um número - >'))
+n2= int    (input ('Digite outo numero - >'))
+som= (n1+n2)
+
+print('A soma deles é de ',som)
+
+outra forma mais facil de escrever é
+
+print ('A soma entre {} e {} é igual a {}'.format(n1, n2, som))
+
+esse comando escrevera
+
+a soma de 5 e 7 é igual a 12
+
+os '{}' indicam as posiçoes das variaveis e no '.format' a orden e o que aparecera nos {}
+
+podemos usar print (n.isnumeric()) para ver se  a variavel é um numero ou não aparecendo false or true 
+podemos fazer a mesma coisa com letras  usando n(n.isalpha())
+
+
+       - - - - - - - - -  - - - - - -- - 
+Variaveis 
+
+para cria uma variavel é necessario colocar input e '(mensagem de pergunta' ficando:
+
+peso=input ('qual seu peso')
+nome=input ('Qual seu nome?')
+idade= input ('Qual sua idade?')
+print ('Seu peso é de', peso,'Sua idade é de', idade,' seu nome é', nome)
+
+esse script mostrara o nome idade e peso que o usuario colocar
+------------------------------------------
+
+TIPOS PRIMITIVOS
+
+int=   indica numeros inteiros tipo 7, 78
+   
+float= números reais como 7.8 , 7.98
+
+bool= valores reais true or false
+
+scr=  strings : 'arroz' 'feijao'

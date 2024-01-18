@@ -1,0 +1,316 @@
+JAVA SCRIPT
+
+comentario 
+
+// <- uma linha de comentario
+
+/* <- varias linhas
+
+= e lido "recebe"
+
+null = nada,0
+
+em javascript pode se usar as aspas ", ', `
+
+as variave podem começar com letra,$ e _, nao pode conter números,pode usar acentos e numeros
+
+letras maiusculas e minuscolas fazem diferença
+
+para se escrever uma variavel e usar seu nome  utilizamos
+
+ar name = window.prompt ('seu name')  
+            window.alert('ola prazer te conhecer,' + name)
+
+o + é usado para a concatenação(junta os dois numeros
+
+o mais pode servir para adiçao e concatenação
+
+para converter um numero de string para numero utilizamos
+
+number.parselnt(n) inteiro
+number.parsentFloat(n) real
+
+Mas sse colocar apenas Number(n) funciona
+
+para formata as string é possivel usar ${s}`
+
+abrindo a frase com crase ` e colocando ${var}`
+
+podemos usar tambem para atribuir as variaveis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------
+MANIPULAÇÃO DE DADOS
+
+----------DE String para number-----------
+
+PARA  o mais funcionar como operador é presciso ficar
+
+number + number
+
+para converter um numero de string para numero utilizamos
+
+number.parselnt(n) inteiro
+number.parsentfloat(n) real
+
+ficando  var n2 = Number.parseInt.window.prompt('digite outros número')
+
+Mas sse colocar apenas Number(n) funciona
+
+-------De Number para string--------
+
+string(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------
+NOMES DE VARIAVEIS
+
+number
+
+string= conjuntos de caracter
+
+boolean= true - false
+
+
+
+
+
+
+===========================
+
+Comandos importantes  SEMPRE UTILIZAR LETRAS MAIUSCULAS NOS DEVIDOS LUGARES
+
+typeof =  fala o tipo da variavel
+
+document.write = escreve na tela mas na paerte do documento
+
+var.length  (quantidade de caracter)
+
+var.toUppercase()  (tudo fica Maísculas
+
+var.toLowercase (tudo para minusculas)
+
+var.toFixed(casasdecimais)
+
+n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})  (colocar na moeda de determinado país)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------
+OPERADORES
+
+a ordem para uma expressão é (op aritimeticos, depois relacional, logico e por fim ternario ( nao importa a ordem))
+
+Aritimeticos= +, -, /. *, % **  (para calculos)
+
+Atribuição  é (=) que significa recebe
+
+auto atribuição = n+=4( serve para todos os op aritimeticos) ex > 
+-----------------------
+num=8
+8
+> num+=7
+15
+> num*=5
+75
+> num/=5
+
+Incremento= 
+ var n=5
+undefined
+> n+=4
+9
+mas se adicionarmos n++ a variavel "n" recebe +1 ou se colocar n-- tira -1 ( assim aparecera depois de pedir para mostrar a variavel)
+para mostrar antes e so colocar os op antes ex-> ++n ou --n
+
+
+--------------------------
+Relacionais
+
+podemos usar para numbers e para strings 
+para strings usamos === e a string recebe '' 
+o === vai medir se o numero ou string é indentico tanto em grandeza tanto sintaticamente
+
+para number:
+
+<    = menor que 
+
+>+   = maior que
+
+<=   = menor ou igual que
+
+>=   =  maior ou igual que
+
+==   = igual
+
+!=   = diferente
+------------------------
+
+Lógicos
+
+! = negação  (apos ele so podemos colocar true ou false)
+
+&& = conjunção (equivalente ao "e")  (suas variacoes são em variações so satisfazendo se as duas  forem trues) true && false
+false
+
+true and true -> true
+
+
+|| = disjunção (equivalente ao "ou")  ( uma ou outra variaçao sendo verdadeira satisfaz)  true||false
+true
+
+
+podemos usar expressões como 
+
+no caso do &&
+
+l=5
+p=67
+
+l<56 && l==5
+true               (qualquer outro caso dara false)
+
+
+no caso do ||
+
+l>p || l==5
+true          (so dara false se as duas estiverem erradas)
+
+---------------------------------------
+
+Ternario
+
+? e :
+
+e montado 
+
+(teste logico)?"aprovado":"reprovado"
+
+var1 < var2 ?"real":"fake"   ( aqui pérgunta se var1 e menor que var2 e se for sera escrito "real" se nao sera escrito "fake"
+
+pode se definir um valor de variavel utilizando esse comando ex
+
+var tot= t+3 ?70:9 (pergunta se a variavel t que vale 67 + 3 é = a 70, se sim o valor da variavel tot vai ficar 70 se nao vai ficar 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------
+DOOM
+
+dom  significa um modelo de objetos para documentos no navegador
+
+estrutura da chamada arvore doom
+
+As maneiras de acessar o DOM são 
+
+Por marca
+o comando é
+getElementsBytagname()
+
+Por id
+getelementbyid
+
+
+Por nome 
+Por classe
+Por seletor
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------
+Operadores(infos) 
+
+ **=potencia
+
+
+

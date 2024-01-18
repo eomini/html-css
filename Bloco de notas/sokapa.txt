@@ -1,0 +1,178 @@
+Anotaçoes progamaçao
+
+
+RELACIONAIS
+maior que <
+menor que>
+maior ou igual que >=
+menor ou igua que <=
+igua a =
+diferente que <>
+-====================
+VALORES LOGICOS 
+sempre verdadeiro ou falso
+----------------------
+VARLORES
+estrutura
+
+A, b, v: INTEIRO
+         REAL
+         CARACTER
+         LOGICO
+===================
+OPERADOR LOGICO
+
+OU= um ou outro
+E= os dois
+===================
+OP ARITIMETICOS
+
+SE(pode conter variaçoes como 
+{ SE( idade >=45) e (idade<=23) entao
+-------------------------------------------
+Pode conter tambem a variaçao "ou"(ou refere-se a (ou um ou outro)
+ex:
+ SE( idade >=45) então
+     escreval("você ja será vei de  guerra")
+ SENAo (idade<=23)
+                escreva ("tu é novin chará")
+
+FIMSE
+
+==-----------------------------------------
+ESCOLHA CASO:ex (ele vai escolhar o caso em que se aplicar e executara o comando 
+ordenado)
+
+  escolha  (variavel)
+           caso 1
+                valor (prefalado)
+           caso 2
+                valor <- (prefalado)
+           caso 3
+                valor (prefalado)
+           caso 4
+             escreva ("qual o valor da (prefalado)")
+           caso 5    escreva("que pena espero que você (prefalado)")
+           
+           fimescolha
+           escreval("sua doaçao foi de R$", valor)
+           escreval("obrigado pela doaçao")
+=================================================================
+ESTRUTURA DE REPETIÇAO (SEMPRE TEREMOS UMA INCOGNITA RECEBENDO O INICIO DA CONTAGEM DETERMINADA "1" OU O NUMERO DA 
+CONTAGEM REGRESSIVA) v <- 1 e tambem E IMPORTANTE COLOCAR (  v <- v+1)
+
+ENQUANTO= repete ate chegar determinado final ou para sempre
+
+ex: (a variavel começa com 100, dai retiramos até chega a 0 usando essa estrutura)
+ contador <- 100
+  enquanto (contador >=0) faca
+           escreval (contador)
+           contador <- contador -1       
+  fimenquanto
+  contador <- contador +1
+  escreval("TA ai retirei", contador," Números")
+---------
+Podemos adicionar tambem ex:(colocamos a variavel em 0 e progamamos para que ela so pare ate chegar em determinado numero)
+
+contador <- 0
+  enquanto (contador <=100) faca
+           escreval (contador)
+           contador <- contador +1
+  fimenquanto
+  contador <- contador -1
+  escreval
+-------------------------
+Podemos tambem adicionar estruturas de repetiçao como o leia(assim 
+o algoritimo ira le as vezes que o usuario mandar)EX
+
+ cont <- 1
+   s <- 0
+   enquanto  (cont <=6) faca
+      escreva ("Digite o", cont, "o valor :")
+      leia  (n)
+        s <- s+n
+      cont <-   cont +1
+   fimenquanto
+   escreva (" a soma foi ", s )
+--------------
+( aqui fizemos a repetiçao e colocamos para que cada numero foce somado com o digitado,
+se o usuario digitasse 3+3+3 apareceria 9)
+(podemso mostrar o maior valor digitado colocando a formula:
+----------------
+  se (n> maior) entao
+         maior <- n
+---------------------
+dentro da estrutura enquanto)
+==================================
+ 
+ESTRUTURA DE REPETIÇÃO
+
+-REPITA (o teste logico e feito apenas no final diferente do enquanto que e feito no inicio)
+
+  repita
+      escreva ("digite o valor :")
+      leia (n)
+      s <- s+n
+      escreval("voce quer continuar? {s/n}")
+      leia (re)
+     ate (re="n")
+----------------------
+Nesse algoritimo o teste logico esta no (ate)
+--------------------
+Podemos fazer contagem regressiva com o algoritimo :
+
+    escreval (c)
+        c <- c-1
+  ate (c<1)
+========================
+ESTRUTURA DE REPETIÇÃO "PARA"
+
+estrutura de contagem 
+
+para c1 := 1 ate 3 faca
+  para c2 := 1 ate 3 faca
+  escreval (c1, c2)
+
+:= significa (vai de)
+==================
+Estrutura de Procedimentos
+
+ex procedimento: topo
+inicio
+escreva("DETECTOR DE MAIS PESADO")
+   escreval(" Maior peso até agora é de ", mai," kilos")
+fimprocedimento
+
+--------------------------------------
+topo()
+   limpatela
+   escreva("DETECTOR DE MAIS PESADO")
+   escreval(" Maior peso até agora é de ", mai," kilos")
+
+   para i <- 1 ate 5 faca
+      escreval ("digite o nome")
+      leia (n)
+      escreval ("digite o peso de ",n," : ")
+      leia(p)
+      se  (p>mai)entao
+         mai<-p
+         pes<-n
+      fimse
+      topo()
+
+   fimpara
+       topo()
+  escreval (" A pessoa mais pesada foi ", pes,", com ", mai, " quilos")
+---------------------------------------------------------------------------
+VARIAVES COMPOSTAS
+
+vetores; se escreve
+
+ v: vetor[1..7] de inteiro
+[1..7] e o tanto de valor que a variavel acumulara
+==================================================
+MATRIZES
+
+para ciar 
+
+ m: vetor [1..3,1..3]
