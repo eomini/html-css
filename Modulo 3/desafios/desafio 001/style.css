@@ -1,0 +1,18 @@
+body{
+    background-image: url(imagem/espaco.jpg);
+    background-size: 100%;
+    position: relative;
+    
+
+}
+
+img{
+    display: inline;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    margin-top:  100px;
+}
+
+/*Desafio completo com sucesooooo*/

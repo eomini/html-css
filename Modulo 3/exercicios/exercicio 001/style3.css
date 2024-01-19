@@ -1,0 +1,16 @@
+#fora{
+    height: 96vh;
+    background-color:rgba(221, 195, 81, 0.808);
+    position: relative;
+}
+
+#dentro{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(207, 20, 207, 0.774);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
