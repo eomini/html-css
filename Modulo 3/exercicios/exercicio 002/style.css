@@ -1,15 +1,19 @@
 body{
-    height: 100vh;
+    height: 100vh;/*
     background-color: black;
     background-image: url(imagem/wallpaper002.jpg);
     background-position: center center;
     background-repeat: repeat-y;
     background-size:cover;
-}
+    background-attachment: fixed; agora a shorthand fica* Lembrando que o size NAO FUNCIONA*/
+
+    background: black url(imagem/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+} 
 
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px; 
     padding: 10px;
     margin: auto;
     border: 10px;
