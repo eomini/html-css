@@ -1,18 +1,37 @@
-body{
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.fundo{
+    display:block;
     background-image: url(imagem/espaco.jpg);
+    background-color: black;
     background-size: 100%;
-    position: relative;
-    
-
-}
-
-img{
-    display: inline;
-    height: 400px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    width: 1280px;
+    height: 641px;
     position: absolute;
-    top: 40%;
-    left: 35%;
-    margin-top:  100px;
+
 }
 
-/*Desafio completo com sucesooooo*/
+#dentro{
+    display: block;
+    background-image: url(imagem/astronauta.png);
+    background-size: 80%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    width: 520px;
+    height: 500px;
+    position: relative;
+    position: fixed;
+    text-align: justify;
+    top: 50%;
+    left: 55%;
+    transform: translate(-55%, -45%);
+    
+}
