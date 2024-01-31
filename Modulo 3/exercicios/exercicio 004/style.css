@@ -5,6 +5,7 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th{
@@ -15,6 +16,13 @@ td, th{
 thead{
     background-color: gray;
     color: white;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+
 }
 
 tfoot{
@@ -34,4 +42,8 @@ caption{
 
 #colum{
     width: 100px;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
 }
